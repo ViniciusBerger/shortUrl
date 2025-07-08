@@ -1,7 +1,9 @@
 import Form from "./components/form";
 import Header from "./components/header";
+import About from "./components/about";
 
 export default function Home() {
+  
   return (
    <main className="relative m-0 min-h-screen text-[#4fd1ff] bg-[linear-gradient(180deg,_#1e1e2f,_#0c0c15)] overflow-hidden">
 
@@ -17,7 +19,7 @@ export default function Home() {
   {/* Subtle Cyan Line for ambiance */}
   <div className="absolute top-[55%] left-[5%] w-[400px] h-0.5 bg-cyan-400 opacity-40 blur-sm animate-[pulse_6s_ease-in-out_infinite]"></div>
 
-  <Header />
+  <Header/>
   <Form />
 </main>
 
