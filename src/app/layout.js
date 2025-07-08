@@ -20,10 +20,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link
            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
            rel="stylesheet"
         />
+
+        
       </head>
        <body 
           className="bg-[linear-gradient(180deg,_#1e1e2f,_#0c0c15)] text-purple-400"
