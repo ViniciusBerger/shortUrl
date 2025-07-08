@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config({ path: path.resolve(__dirname, '../../../.env.local') });
 export default async function Shorten(longUrl, alias) {
+  
   // Check if the longUrl is provided
   if (!longUrl) {
     alert("Url is required")
@@ -10,12 +11,13 @@ export default async function Shorten(longUrl, alias) {
   }
 
   try {
+    console.log(`${process.env.TINYURL_API_KEY}`);
     // request to TinyURL API to shorten the URL
     // Note: The API key should be stored securely, not hardcoded in the code.
     const response = await fetch(`https://api.tinyurl.com/create`, {
         method: 'POST',
         headers: {
-            Authorization: `Bearer ${process.env.TINYURL_API_KEY}`, // Use your TinyURL API key
+            Authorization: `Bearer UEY2MrzArdfxdL7YxibDIyqQiEsJTZ4bKq1QP6KoHT04azbCNZc2RM3x6cSZ`, // Use your TinyURL API key
             'content-type': 'application/json',
         },
         body: JSON.stringify({
