@@ -6,7 +6,7 @@ A simple and efficient URL shortening service built with Next.js. Transform long
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Instant URL Shortening**: Quickly convert lengthy URLs into short, easy-to-share links.
 - **User-Friendly Interface**: Clean and intuitive design for seamless user experience.
@@ -14,7 +14,7 @@ A simple and efficient URL shortening service built with Next.js. Transform long
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Next.js**
 - **React**
@@ -22,7 +22,7 @@ A simple and efficient URL shortening service built with Next.js. Transform long
 
 ---
 
-## 📦 Installation
+## Installation
 
 To get the project up and running locally, follow these steps:
 
@@ -50,13 +50,13 @@ Open your browser and visit `http://localhost:3000` to see the application in ac
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 This project is deployed on **Vercel**. For more information on deploying Next.js applications, visit the [Vercel Documentation](https://vercel.com/docs/concepts/next.js/overview).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -68,6 +68,6 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the `LICENSE` file for details.
